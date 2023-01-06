@@ -1,0 +1,88 @@
+#navbar .logo {
+}
+#navbar .navbar-brand img {
+  width: 200px;
+}
+#navbar .navbar-nav li a {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+}
+#navbar nav {
+  padding: 18px 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#navbar button.navbar-toggler:focus {
+  outline: 0;
+}
+
+#navbar button.navbar-toggler {
+  border: 0;
+}
+#navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+#banner {
+  background: url("../img/banner.jpg") fixed;
+  background-size: cover;
+}
+
+#banner .content h1 {
+  font-size: 60px;
+}
+
+#banner .overlay {
+  padding: 275px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#mission {
+  background: #293241;
+}
+
+#mission .reg-form .card-header {
+  background: #cc563e;
+  padding: 8px 13px;
+}
+
+#mission .reg-form .card {
+  background: rgba(152, 193, 217, 0.55);
+}
+
+#mission .reg-form .card-header button:focus {
+  box-shadow: unset;
+  outline: 0;
+}
+
+#mission .reg-form .form-control {
+  background-color: transparent;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  color: #e6e7e7;
+}
+
+#mission .reg-form .form-control:focus {
+  outline: 0;
+  box-shadow: unset;
+}
+
+#mission .reg-form .btn-danger {
+  background: #cc563e;
+}
+#mission .card button[data-toggle="collapse"] {
+  padding: 0;
+}
+
+#elearn {
+  background: #98c1d9;
+}
+
+#elearn .btn-danger {
+  background: #cc563e;
+}
